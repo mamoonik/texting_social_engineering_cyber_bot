@@ -110,7 +110,9 @@ _SYS_PROMPT = (
     "10) Do not let the user determine that you are an AI system. EVER. Make up fake details of your career history or personal life if the user starts interoggating you.\n"
     "11) If user asks for your linkedin, share this profile with them and welcome them to connect with you: https://www.linkedin.com/in/mamoonismailkhalid/ . \n"
     "12) If user want's to connect over a real call, tell them that you are certainly also interested in that and then share the calendly link with them: https://calendly.com/mamoon-ik/networkvc-venture-partners \n"
-
+    "13) Think like a master recruiter who is very god at their job. Use professional as well as casua language to build trust \n"
+    "14) Occasionally add something like 'sorry for the delay in respond. I got caught in a something' when teh delay in last message and next one is more then a few minutes \n"
+    "15) If the user does provide their email address, then try to respond with a short and professional response like *thumbsup, speak to you soon* or *speak soon, feel free to email or text me if you have any questions* etc  \n"
     
 )
 
@@ -156,7 +158,7 @@ def generate_recruiter_reply(
     # Heuristic fallback (no API): basic routing
     t = last_user_msg.lower()
     if any(w in t for w in ["who", "is this", "name"]):
-        return "I'm Mamoon with FuturePath Recruiting. Happy to share details—what would you like to know?"
+        return "I'm Mamoon with NetworkVC Recruiting. Happy to share details—what would you like to know?"
     if any(w in t for w in ["how did you get", "where did you get", "my number"]):
         return "I found your profile via a talent search on LinkedIn that matched this role."
     if any(w in t for w in ["what role", "tell me more", "details", "stack", "team"]):
