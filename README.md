@@ -122,10 +122,4 @@ AI Engineer & Systems Designer
 🧾 License
 MIT License — feel free to use or adapt this for educational and research purposes.
 
-yaml
-Copy code
 
----
-
-Would you like me to include a **short demo GIF/screenshot section** at the top of the README (e.g., showing the chat UI)?  
-That’s optional but makes the repo look very polished for reviewers.
