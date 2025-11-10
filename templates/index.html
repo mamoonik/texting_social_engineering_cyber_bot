@@ -1,0 +1,67 @@
+<!-- <!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>GhostEye Demo — Employee View</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 720px; margin: 20px auto; }
+    #log { border: 1px solid #ccc; padding: 12px; height: 400px; overflow: auto; background:#f9f9f9; }
+    .ev { margin: 8px 0; }
+    .actor { font-weight: bold; }
+    .recruiter { color: #0b5fff; }
+    .employee { color: #1a7a0a; }
+    .meta { color: #666; font-size: 0.8em; }
+  </style>
+</head>
+<body>
+  <h2>Employee Phone — Demo</h2>
+  <p>Conversation id: <span id="conv_id">{{ conv_id }}</span></p>
+
+  <div id="log"></div>
+
+  <form id="sendForm" onsubmit="return sendMessage();">
+    <input id="msg" placeholder="Type your reply..." style="width:70%" />
+    <button type="submit">Send</button>
+  </form>
+
+  <p style="margin-top:12px">
+    <button id="triggerBtn">Trigger recruiter initial message</button>
+    <a id="pdfLink" href="/assets/job_description" target="_blank" style="margin-left:12px">Open job description (safe demo)</a>
+  </p>
+
+  <script src="/static/chat.js"></script>
+</body>
+</html> -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Employee Phone — Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 760px; margin: 24px auto; }
+    #log { border: 1px solid #ccc; padding: 12px; height: 420px; overflow: auto; background:#f9f9f9; }
+    .ev { margin: 8px 0; }
+    .actor { font-weight: bold; }
+    .recruiter { color: #0b5fff; }
+    .employee { color: #1a7a0a; }
+    .meta { color: #666; font-size: 0.8em; }
+  </style>
+</head>
+<body>
+  <h2>Employee Phone — Demo</h2>
+  <p>Conversation id: <span id="conv_id">{{ conv_id }}</span></p>
+  <div id="log"></div>
+
+  <form id="sendForm" onsubmit="return sendMessage();">
+    <input id="msg" placeholder="Type your reply..." style="width:70%" />
+    <button type="submit">Send</button>
+  </form>
+
+  <p style="margin-top:12px">
+    <button id="triggerBtn">Trigger recruiter initial message</button>
+    <a id="pdfLink" href="/assets/job_description" target="_blank" style="margin-left:12px">Open job description (safe demo)</a>
+  </p>
+
+  <script src="/static/chat.js"></script>
+</body>
+</html>

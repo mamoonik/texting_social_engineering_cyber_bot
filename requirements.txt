@@ -1,0 +1,13 @@
+numpy
+pytest
+python-multipart
+fastapi
+uvicorn[standard]
+python-dotenv
+jinja2    # for templates (optional; FastAPI includes templating)
+uvicorn[standard]
+websockets
+# openai
+openai>=1.40.0
+PyPDF2
+PyPDF2
